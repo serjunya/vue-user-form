@@ -1,0 +1,26 @@
+{
+    "name": "vue-users-service",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "lint": "npx eslint --ext .js,.ts,.vue . --fix"
+    },
+    "keywords": [],
+    "author": "Сергей Головатюков <2003gsa20152@gmail.com> (https://github.com/serjunya)",
+    "license": "ISC",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^7.16.0",
+        "@typescript-eslint/parser": "^7.16.0",
+        "eslint": "^8.57.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-config-standard": "^17.1.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-n": "^16.6.2",
+        "eslint-plugin-prettier": "^5.1.3",
+        "eslint-plugin-promise": "^6.4.0",
+        "eslint-plugin-vue": "^9.27.0",
+        "vue-eslint-parser": "^9.4.3"
+    },
+    "BACKEND_PORT": 3000
+}

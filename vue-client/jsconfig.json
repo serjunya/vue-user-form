@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "lib": ["ES2021"]
+  },
+  "exclude": ["node_modules", "dist"]
+}
